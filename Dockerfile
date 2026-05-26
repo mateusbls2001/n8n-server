@@ -1,4 +1,6 @@
-FROM n8nio/n8n
+FROM node:18-alpine
+
+RUN npm install -g n8n
 
 EXPOSE 5678
 
